@@ -103,7 +103,7 @@ function display_setup_form( $error = null ) {
 	$user_name    = isset( $_POST['user_name'] ) ? trim( wp_unslash( $_POST['user_name'] ) ) : '';
 	$admin_email  = isset( $_POST['admin_email'] ) ? trim( wp_unslash( $_POST['admin_email'] ) ) : '';
 	
-	$weblog_title='Gabriel Vela Unir';
+	$weblog_title='Blog de Gabriel Vela para Unir';
 	$user_name='Gabriel Vela';
 	$admin_email='armandogabrielvela@outlook.com';
 
